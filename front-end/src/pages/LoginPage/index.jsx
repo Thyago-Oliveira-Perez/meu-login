@@ -4,11 +4,19 @@ import "./styles.css"
 const LoginPage = () => {
 
     const [email, setEmail] = useState("");
-    const [password, setPassword] = useState("");z
+    const [password, setPassword] = useState("");
+
+    var dados = {
+        email: email,
+        senha: password
+    }
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log("aaa", {email, password})
+        dados.email = email;
+        dados.senha = password;
+        var json = JSON.stringify(dados);
+        console.log("aaa", json)
     };
 
     return (
