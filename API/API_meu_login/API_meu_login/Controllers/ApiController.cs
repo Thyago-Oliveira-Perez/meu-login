@@ -4,6 +4,10 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.IO;
 using System.Threading.Tasks;
+using API_meu_login.Service;
+using API_meu_login.Model;
+using System.Data;
+using Newtonsoft.Json;
 
 namespace API_meu_login.Controllers
 {
@@ -16,12 +20,22 @@ namespace API_meu_login.Controllers
         {
             _environment = environment;
         }
-        [HttpGet("login")]
-        public string Get()
+
+        [HttpPost("login")]
+        public object GetAcess([FromBody]object json)
         {
-            string texto = " Web API - ImagemController em execução : " + DateTime.Now.ToLongTimeString();
-            texto += $"\n Ambiente :  {_environment.EnvironmentName}";
-            return texto;
+
+            if (json != null)
+            {
+                ServiceUser user = new ServiceUser();
+
+                if (user.GetUserByEmail(json.ToString()) != null)
+                {
+                    return Ok();
+                    //return JsonConvert.SerializeObject(user.GetUserByEmail(json.ToString()));             
+                }
+            }
+            return NotFound();
         }
 
         [HttpPost("cadastro")]

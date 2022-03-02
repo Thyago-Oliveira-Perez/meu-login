@@ -1,15 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "V1Tu4YrQBQy43BzFeWgJ0XsMPVJDFd7ZRSM/R/B8ghVrj+SWEp+Ciqm0FErG97TBVQUx6q7LtQHT7l1v1tjKTQ==",
+  "dgSpecHash": "BQnB9k81tjr6mlv50nyIzdFDebrtwTpMvu34H0/K+x8p5eT/ZUrApxfMWXilIWYuPHXiAGNjIF5Y54AWqQ1dXA==",
   "success": true,
   "projectFilePath": "C:\\Users\\thyag\\Desktop\\meu-login\\API\\API_meu_login\\API_meu_login\\API_meu_login.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thyag\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\thyag\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\thyag\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\thyag\\.nuget\\packages\\npgsql\\6.0.3\\npgsql.6.0.3.nupkg.sha512",
     "C:\\Users\\thyag\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\thyag\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\thyag\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\thyag\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    "C:\\Users\\thyag\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\thyag\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

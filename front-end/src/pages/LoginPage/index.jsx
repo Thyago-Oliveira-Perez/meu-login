@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./styles.css"
+import axios from "axios";
 
 const LoginPage = () => {
 
@@ -15,8 +16,20 @@ const LoginPage = () => {
         e.preventDefault();
         dados.email = email;
         dados.senha = password;
-        var json = JSON.stringify(dados);
-        console.log("aaa", json)
+        
+        axios({
+            method: "post",
+            url: "https://localhost:44345/api/Api/login",
+            data: JSON.stringify(dados),
+            headers: { "Content-Type": "Content-Type: application/json"},
+          }).then(function (response) {
+              console.log(response);
+            })
+            .catch(function (response) {
+              console.log(response);
+            });
+
+        console.log(dados)
     };
 
     return (

@@ -25,3 +25,5 @@ C:\Users\thyag\Desktop\meu-login\API\API_meu_login\API_meu_login\obj\Debug\net6.
 C:\Users\thyag\Desktop\meu-login\API\API_meu_login\API_meu_login\obj\Debug\net6.0\API_meu_login.pdb
 C:\Users\thyag\Desktop\meu-login\API\API_meu_login\API_meu_login\obj\Debug\net6.0\API_meu_login.genruntimeconfig.cache
 C:\Users\thyag\Desktop\meu-login\API\API_meu_login\API_meu_login\obj\Debug\net6.0\ref\API_meu_login.dll
+C:\Users\thyag\Desktop\meu-login\API\API_meu_login\API_meu_login\bin\Debug\net6.0\Npgsql.dll
+C:\Users\thyag\Desktop\meu-login\API\API_meu_login\API_meu_login\bin\Debug\net6.0\Newtonsoft.Json.dll
